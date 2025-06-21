@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&K Advocacia - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">M&K Advocacia</div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="vantagens.html">Vantagens</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="contato.html" class="active">Contato</a>
+        </nav>
+    </header>
+
+    <main class="page-section">
+        <h2 class="section-title">Fale Conosco</h2>
+        <p class="section-subtitle">Estamos prontos para ouvir você. Envie sua mensagem ou entre em contato por nossos canais.</p>
+        
+        <div class="contact-container">
+            <form id="contactForm">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Seu Melhor E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefone (com DDD):</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ex: 11987654321" required>
+
+                <label for="message">Como podemos ajudar?</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+            <div class="contact-info">
+                <h3>Canais de Atendimento</h3>
+                <p><i class="fas fa-phone"></i> (11) 99999-8888</p>
+                <p><i class="fas fa-envelope"></i> contato@mkadvocacia.com.br</p>
+                <p><i class="fas fa-map-marker-alt"></i> Rua Fictícia, 123 - Sala 45, São Paulo - SP</p>
+                <p><i class="fas fa-clock"></i> Seg a Sex, das 9h às 18h</p>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.145833481281!2d-46.6565711844941!3d-23.56294498468246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x24234544229b3a23!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1620999555513!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 M&K Advocacia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
